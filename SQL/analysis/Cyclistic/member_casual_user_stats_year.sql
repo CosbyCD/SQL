@@ -1,14 +1,8 @@
 /*
 File: member_casual_user_stats_year.sql
 
-"This  query conducts an analysis of bike-sharing data
-from the 'user_data' table, specifically focusing on 
-the total counts of members and casual riders for the year,
+Focused on the total counts of semented groups for the year,
 along with the percentage difference between these counts.
-The query employs conditional aggregation techniques to 
-achieve accurate calculations and utilizes rounding for 
-result clarity. The analysis provides insights into rider 
-distribution and trends for the specified year."
 */
 
 SELECT
