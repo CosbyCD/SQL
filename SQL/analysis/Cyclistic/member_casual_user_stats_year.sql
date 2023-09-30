@@ -1,8 +1,7 @@
 /*
 File: member_casual_user_stats_year.sql
 
-Focused on the total counts of semented groups for the year,
-along with the percentage difference between these counts.
+Yearly focus on total counts of segmented groups, including percentage differences.
 */
 
 SELECT
