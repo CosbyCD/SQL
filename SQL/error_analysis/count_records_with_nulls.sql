@@ -1,34 +1,7 @@
 /*
 File: "count_records_with_nulls.sql"
 
-This SQL query facilitates a comprehensive assessment of 
-data quality issues within the "user_data" dataset. 
-It calculates the error percentage by identifying records 
-with NULL values across specific columns and measuring 
-their proportion relative to the entire dataset.
-
-Query Details:
-The query is structured around a Common Table Expression 
-(CTE) named "total_null_counts," designed to count 
-records with NULL values in targeted columns. By evaluating 
-columns such as "ride_id," "rideable_type," "started_at," 
-and others, the query identifies records with potential 
-data quality anomalies.
-
-To compute the error percentage, the CTE calculates the 
-total number of records with errors. The main query then 
-calculates the overall number of records in the dataset. 
-By dividing the count of records with errors by the total 
-count and expressing it as a percentage, the query 
-quantifies the extent of data quality challenges.
-
-Benefits and Implications:
-This data quality analysis offers a pragmatic perspective 
-on the impact of NULL values on dataset integrity. By 
-quantifying the proportion of records affected by NULLs, 
-data professionals gain insights into potential data gaps 
-and anomalies. This, in turn, empowers informed decision-making 
-to enhance data reliability and accuracy.
+Provides statistics on data quality, including total records, total records with errors, and error percentage for the dataset.
 */
 
 -- Calculate the Percentage of Records with NULLs
