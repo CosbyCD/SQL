@@ -2,7 +2,7 @@
 
 File: user_count_by_type.sql
 
-This query provides the total number of each rider type
+Counts users by segmented groups.
 */
 
 
