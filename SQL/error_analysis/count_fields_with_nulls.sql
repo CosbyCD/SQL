@@ -1,30 +1,7 @@
 /*
 File: count_fields_with_nulls.sql
 
-This query conducts a thorough investigation into the data 
-integrity of the "user_data" database by meticulously 
-analyzing the presence of NULL values across its records. 
-The analysis focuses on evaluating the percentage of 
-errors within the dataset as a whole.
-
-The query systematically evaluates each record, calculating
-the total count of fields (columns), the count of fields 
-with NULL values, and the corresponding percentage of NULLs
-relative to the entire dataset. Precision is maintained 
-through careful use of conditional expressions and accurate
-mathematical computations.
-
-The results are presented in a concise and structured format,
-providing stakeholders with a clear overview of the data 
-quality assessment. By executing this query, valuable insights
-are gained into the extent of data completeness and the 
-proportion of errors within the database.
-
-This analysis facilitates informed decision-making, guides 
-targeted data refinement strategies, and supports ongoing 
-data quality monitoring. It underscores the commitment to 
-maintaining a dependable and reliable dataset, crucial for 
-effective analysis and decision support.
+Provides a summary of data quality, including total fields, total nulls, and error percentage for the dataset.
 */
 
 SELECT
