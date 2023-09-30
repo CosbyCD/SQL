@@ -1,18 +1,7 @@
 /*
 File: mode_day_monthly.sql
 
-This query analyzes ride data for "Member" and "Casual" users, 
-presenting the mode (most frequent) day of the week, total ride 
-count, and average ride length in minutes for each month of the 
-year. The query enables a comprehensive evaluation of user behavior
-based on day-to-day patterns, allowing for meaningful insights into 
-user preferences and engagement trends. By segmenting data by user 
-type and highlighting mode days, the analysis contributes to a 
-well-informed understanding of ride utilization patterns, aiding 
-in data-driven decision-making and strategic planning for 
-ride-sharing services. The output provides a clear breakdown of 
-mode days across user types, fostering a better grasp of user 
-engagement dynamics on a monthly basis.
+Segments user ride data by day, presenting most frequent day, total rides, and average duration per month.
 */
 
 
