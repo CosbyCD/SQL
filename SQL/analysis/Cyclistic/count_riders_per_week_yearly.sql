@@ -1,7 +1,7 @@
 /*
 File: count_riders_per_week_yearly.sql
 
-Weekly counts by segmented groups.
+Weekly counts per segmented groups.
 */
 
 
