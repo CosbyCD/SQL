@@ -1,12 +1,7 @@
 /*
 File: count_riders_per_month_yearly.sql
 
-Employing the crosstab function to transform ride
-count data from the user_data table. Calculating and categorizing
-the number of rides undertaken by both member and casual riders 
-for each month of the year. The pivot table generated from this query
-allows analysis of monthly ride patterns and a comparison of ride counts
-between member and casual riders.
+Monthly counts by segmented groups.
 */
 
 
