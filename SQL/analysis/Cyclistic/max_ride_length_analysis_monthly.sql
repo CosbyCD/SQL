@@ -1,16 +1,9 @@
 /*
 File: max_ride_length_analysis_monthly.sql
 
-This query offers a comprehensive and equitable analysis of ride length
-statistics for "Member" and "Casual" users over the course of a year. 
-Leveraging the "user_data" dataset, the query adeptly calculates 
-total and maximum ride lengths, meticulously adjusted and normalized 
-by user count. By factoring in the user population sizes, the query 
-ensures unbiased comparisons between different user types. Furthermore, 
-the analysis is organized by month, adding a temporal dimension to the 
-insights. The resulting output effectively captures the variations in 
-ride lengths, providing a clear and meaningful assessment of user behavior
-patterns throughout the year.
+Analysis of ride length statistics for "Member" and "Casual" users
+over the course of a year, calculates total and maximum ride lengths,
+adjusted and normalized by user count.
 */
 
 WITH MaxRideLengths AS (
