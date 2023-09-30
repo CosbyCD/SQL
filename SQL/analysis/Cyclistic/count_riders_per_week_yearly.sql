@@ -1,16 +1,12 @@
 /*
 File: count_riders_per_week_yearly.sql
 
-This SQL query employs the crosstab function to transform ride
-count data from the user_data table. The query calculates 
-and categorizes the number of rides undertaken by both member 
-and casual riders for each week of the year. The pivot table 
-generated from this query offers a concise summary, allowing 
-analysis of weekly ride patterns and a comparison of ride counts
-between member and casual riders. This information can be 
-valuable for understanding rider engagement trends and making
-informed decisions related to resource allocation and service 
-enhancements.
+Employing the crosstab function to transform ride count data
+from the user_data table. Calculating and categorizes the
+number of rides undertaken by both member and casual riders 
+for each week of the year. The pivot table allows analysis 
+of weekly ride patterns and a comparison of ride counts
+between member and casual riders.
 */
 
 
