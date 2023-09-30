@@ -1,8 +1,7 @@
 /*
 File: avg_ride_length_analysis_by_month.sql
 
-Ride length data based on segmented groups,
-broken down by month. It calculates average ride lengths,
+Average duration per segmented group, broken down by month,
 along with the percentage difference between these averages. 
 */
 
