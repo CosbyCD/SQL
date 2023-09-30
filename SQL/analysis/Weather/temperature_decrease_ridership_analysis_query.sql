@@ -1,15 +1,7 @@
 /*
 File: temperature_decrease_ridership_analysis_query.sql
 
-This SQL query combines weather data and ridership counts to 
-analyze temperature shifts affecting casual and member ridership.
-This analysis is using the 'feels like' temperatures instead of the 
-actual recorded temperatures as the 'feels like' is what riders experience.
-It calculates the counts of riders and their temperature 
-preferences before and after temperature shifts where the decrease 
-is greater than 10 degrees Fahrenheit. The query efficiently retrieves segmented 
-ridership data and provides valuable insights into how 
-temperature changes impact ridership patterns.
+Analyzes ridership changes in response to temperature shifts. Compares current and previous rider counts in different temperature ranges.
 */
 
 WITH TemperatureShifts AS (
