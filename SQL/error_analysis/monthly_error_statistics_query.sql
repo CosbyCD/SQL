@@ -1,18 +1,8 @@
 /*
 File: monthly_error_statistics_query.sql
 
-The "monthly_error_statistics_query.sql" script calculates
-and summarizes error statistics on a monthly basis from 
-the "user_data" table. It retrieves counts of records
-with errors, where specific columns contain NULL values,
-empty strings (''), or whitespace (' '), and calculates 
-the corresponding percentage against total records for 
-each month. The results include columns for the month, 
-counts of errors in various columns, error percentages 
-rounded to two decimal points, and are ordered 
-chronologically. By executing this query, you can gain 
-insights into the prevalence of errors within different 
-months, aiding data quality assessment and pattern recognition.
+Calculates the error counts and percentages for various attributes related to stations
+and geographical coordinates. Grouped by month and ordered accordingly.
 */
 
 
