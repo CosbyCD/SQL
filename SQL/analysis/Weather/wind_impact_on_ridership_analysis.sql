@@ -1,10 +1,8 @@
 /*
 File: wind_impact_on_ridership_analysis.sql
 
-This query examines the relationship between wind speed and ridership behavior
-by categorizing wind speed into ranges. It calculates the count of casual and
- member riders for each wind speed range. The output provides insights into how
-different wind speed levels influence ridership engagement.
+
+Provides segmented rider counts based on wind speed ranges.
 */
 
 SELECT
