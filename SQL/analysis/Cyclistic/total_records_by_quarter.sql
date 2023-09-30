@@ -1,7 +1,7 @@
 /*
 File: "total_records_by_quarter.sql"
 
-Counts quarterly rides in the dataset.
+Quarterly ride counts.
 */
 
 SELECT
