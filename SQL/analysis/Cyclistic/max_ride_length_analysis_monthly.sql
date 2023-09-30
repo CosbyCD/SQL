@@ -1,9 +1,8 @@
 /*
 File: max_ride_length_analysis_monthly.sql
 
-Analysis of ride length statistics for "Member" and "Casual" users
-over the course of a year, calculates total and maximum ride lengths,
-adjusted and normalized by user count.
+Calculating total and maximum ride durations for segmented groups, adjusted and normalized
+by user count on a monthly basis over the course of a year.
 */
 
 WITH MaxRideLengths AS (
