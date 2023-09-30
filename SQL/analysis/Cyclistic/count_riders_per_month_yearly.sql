@@ -1,7 +1,7 @@
 /*
 File: count_riders_per_month_yearly.sql
 
-Monthly counts by segmented groups.
+Monthly counts per segmented groups.
 */
 
 
