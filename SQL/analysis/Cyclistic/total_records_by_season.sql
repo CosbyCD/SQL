@@ -1,7 +1,7 @@
 /*
 File: "total_records_by_season.sql"
 
-Counts seasonal rides in the dataset.
+Seasonal ride counts.
 */
 
 SELECT
