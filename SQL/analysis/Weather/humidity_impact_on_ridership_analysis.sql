@@ -1,12 +1,7 @@
 /*
 File: humidity_impact_on_ridership_analysis.sql
 
-This query investigates the relationship between humidity
-levels and ridership preferences. By grouping ridership 
-counts based on humidity ranges, it offers insights into 
-how humidity might impact the preferences of casual and 
-member riders. The analysis helps to identify any potential
-correlations between humidity levels and ridership behavior. 
+Ride counts categorized by humidity levels: Less than 30%, 30-49%, 50-69%, and 70% and above. 
 */
 
 SELECT
