@@ -1,10 +1,8 @@
 /*
 File: max_ride_length_analysis_seasonal.sql
 
-Ride length statistics for "Member" and "Casual" users, segregated by 
-distinct seasons throughout the year, by total and maximum ride
-lengths in hours, minutes, and seconds. 
-The values are normalized by user counts to eliminate bias. 
+Calculating total and maximum ride durations for segmented groups, adjusted and normalized
+by user count on a seasonal basis over the course of a year.
 
 */
 
