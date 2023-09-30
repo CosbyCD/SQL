@@ -1,13 +1,10 @@
 /*
 File: avg_ride_length_analysis_by_year
 
-This query focuses on the average ride durations of "member"
-and "casual" riders within a single-year timeframe. 
-It calculates and presents the rounded mean ride lengths 
-for each user category and the corresponding percentage 
-difference. Examining ride patterns within this specific 
-year, provides insights into the typical ride durations 
-of different user types.
+Average ride durations of segmented groups within a 
+single-year timeframe. Providing the rounded mean  
+for each group and the corresponding percentage 
+difference.
 */
 
 
