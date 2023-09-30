@@ -1,12 +1,7 @@
 /*
 File: temperature_precipitation_ridership_analysis.sql
 
-The provided SQL query analyzes ridership behavior based on 
-temperature and precipitation conditions during holidays. It
-categorizes temperature ranges and precipitation status, 
-calculating the count of casual and member riders for each
-combination. The query aims to uncover patterns in ridership
-preferences across various weather conditions.
+Provides segmented rider counts based on temperature range and precipitation status.
 */
 
 SELECT
