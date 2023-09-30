@@ -1,12 +1,8 @@
 /*
 File: create_error_free_records.sql
 
-This SQL query creates a new table 'error_free_records'
-by selecting rows from 'user_data' where various 
-columns have valid values. The query filters out rows 
-where columns have missing or empty values, resulting 
-in a clean dataset without errors.
-
+Creates a new table named error_free_records containing records that pass data quality checks. 
+Records with missing or invalid values in certain columns are excluded.
 */
 
 CREATE TABLE error_free_records AS
@@ -29,5 +25,6 @@ WHERE NOT (
     (ride_length IS NULL) OR
     (day_of_week IS NULL) OR
     (name_of_day IS NULL) OR
-    (ride_length < 0) -- And excluding records with negative ride_length
+    (ride_length < 0) OR
+    (ride_length > 1440)
 );
