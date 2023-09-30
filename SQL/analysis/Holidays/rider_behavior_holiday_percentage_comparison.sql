@@ -1,17 +1,7 @@
 /*
 File: rider_behavior_holiday_percentage_comparison.sql
 
-The provided query analyzes rider behavior in relation to 
-holidays by calculating the average percentages of casual 
-and member riders for each holiday. It computes the 
-proportion of each rider type during holidays and excludes
-rows without valid holiday names. The results offer insights
-into how rider preferences vary on different holidays, 
-aiding in understanding the influence of holidays on rider
-composition. The outcomes are presented in descending order
-of the average percentage of casual riders, facilitating 
-identification of holidays with prominent casual rider 
-participation.
+Average percentage of ridership by group type on holidays.
 */
 
 
