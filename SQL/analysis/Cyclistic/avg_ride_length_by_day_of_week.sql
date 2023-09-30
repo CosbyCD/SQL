@@ -1,9 +1,7 @@
 /*
 File: avg_ride_length_by_day_of_week.sql
 
-Average duration by segmented groups across different 
-days of the week. The query employs a crosstab approach to 
-present the results in a structured pivot table format.
+Average duration by segmented groups, by days of the week, presented in a crosstab pivot table format.
 */
 
 
