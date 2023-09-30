@@ -1,17 +1,8 @@
 /*
 File: data_quality_summary_report.sql
 
-This SQL query generates a comprehensive summary report 
-for the "user_data" table, focusing on data quality 
-assessment. The query calculates the count of NULL and 
-empty values for each column, along with the total record 
-count, and presents the results in a structured format. 
-By utilizing conditional expressions and filters, the 
-query provides valuable insights into the presence of 
-missing or inconsistent data across multiple columns. 
-The report aids in identifying potential data quality 
-issues, enabling effective data cleansing and enhancement 
-efforts.
+Summary of null counts for various columns in the dataset, including the total records.
+
 */
 
 WITH total_counts AS (
