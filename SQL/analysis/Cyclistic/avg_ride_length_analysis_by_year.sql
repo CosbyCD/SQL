@@ -1,7 +1,7 @@
 /*
 File: avg_ride_length_analysis_by_year
 
-Average ride durations of segmented groups within a 
+Average durations by segmented groups within a 
 single-year timeframe. Providing the rounded mean  
 for each group and the corresponding percentage 
 difference.
