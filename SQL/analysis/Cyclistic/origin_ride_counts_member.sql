@@ -1,12 +1,7 @@
 /*
 File: origin_ride_counts_member.sql
 
-The provided SQL query calculates origin ride counts by start
-station, categorizing them into member and casual riders. It
-uses conditional aggregation to tally the number of rides for
-each category separately. The query groups the results by 
-start_station_name and orders them in descending order based
-on the count of member rides.
+Counts rides by start station for a segmented group (member). Orders by start station with descending ride counts.
 */
 
 SELECT
