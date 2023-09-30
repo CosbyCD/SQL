@@ -1,12 +1,7 @@
 /*
 File: "total_records_by_quarter.sql"
 
-This query calculates the total count of records per 
-quarter from the "error_free_records" table. By extracting
-the quarter number (1, 2, 3, or 4) from the "started_at"
-date and organizing the results in ascending order, the 
-query delivers a concise overview of data distribution 
-across quarterly timeframes.
+Counts quarterly rides in the dataset.
 */
 
 SELECT
