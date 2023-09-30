@@ -1,12 +1,7 @@
 /*
 File: rider_behavior_holiday_non-holiday_comparison.sql
 
-The query analyzes rider behavior by calculating the average
-counts of casual and member riders on both holidays and 
-non-holidays. It achieves this by categorizing each day based
-on the presence of a holiday and then computing the respective
-averages. The results provide insights into how rider patterns
-differ between these two day types.
+Average ridership by group type on holidays and non-holidays.
 */
 
 SELECT
