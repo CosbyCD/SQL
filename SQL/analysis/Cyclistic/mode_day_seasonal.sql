@@ -1,19 +1,7 @@
 /*
 File: mode_day_seasonal.sql
 
-This query performs a comprehensive analysis of ride data based on 
-the seasons, providing insights into user behavior and preferences. By 
-categorizing rides into Spring, Summer, Autumn, and Winter, and further 
-segmenting by user type (Member or Casual), the query calculates the 
-average ride length for each day of the week within each season and 
-user type. The results highlight the mode day of the week for each 
-season and user type combination, shedding light on patterns and 
-preferences. The output is presented in a clear and organized manner,
-allowing for easy identification of trends and variations in ride 
-behaviors across different seasons and user types. This analysis 
-contributes to a deeper understanding of user engagement and usage 
-patterns, aiding decision-making for targeted marketing efforts 
-and service improvements.
+Segments user ride data seasonally, providing most frequent day, total rides, and average duration per month.
 */
 
 
