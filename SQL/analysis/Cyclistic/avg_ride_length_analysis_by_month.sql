@@ -1,8 +1,8 @@
 /*
 File: avg_ride_length_analysis_by_month.sql
 
-Average duration per segmented group, broken down by month,
-along with percentage differences. 
+Average duration per segmented group by month,
+and percentage differences. 
 */
 
 SELECT
