@@ -1,11 +1,7 @@
 /*
 File: extreme_weather_impact_on_ridership_analysis.sql
 
-This query delves into the impact of extreme weather conditions 
-on ridership behavior by examining patterns during exceptionally 
-hot, cold, or stormy days. By categorizing data based on temperature
-and precipitation, the query calculates the average percentage of 
-casual and member riders for each extreme weather type. 
+Percentage of casual and member riders during extreme weather conditions categorized as Hot, Cold, Stormy, and Normal. 
 */
 
 SELECT
