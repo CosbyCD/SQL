@@ -1,12 +1,8 @@
 /*
 File: create_records_with_errors.sql
 
-This SQL query creates a new table named 'records_with_errors'
-by selecting rows from the 'user_data' table where columns 
-have missing or empty values as well as those records where the 
-'ride_length' are negative. The conditions ensure that any 
-columns are checked for validity before being included in the 
-new table.
+Identifies and isolates records with missing or incorrect values in various columns,
+placing them in a new table named records_with_errors.
 */
 
 
@@ -44,4 +40,5 @@ WHERE
     ride_length IS NULL OR
     day_of_week IS NULL OR
     name_of_day IS NULL	OR
-	ride_length < 0;
+    ride_length < 0 OR
+    ride_length > 1440;
