@@ -1,12 +1,7 @@
 /*
 File: preferred_ride_times_members.sql
 
-The provided query analyzes the usage trends of members in a
-bike-sharing program according to the time of day they start
-their rides. The query categorizes the ride times into various
-periods and calculates the count of rides within each period. 
-The results are presented in descending order of ride counts, 
-offering insights into the most popular ride times among members. 
+Analyzes member user ride patterns by start time, categorizing into periods and counting rides. Presents top time slots.
 */
 
 SELECT CASE
