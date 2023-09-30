@@ -1,8 +1,7 @@
 /*
 File: total_records_by_month
 
-This query focuses on calculating the monthly rides within 
-the ride-sharing dataset.
+Counts monthly rides in the dataset.
 */
 SELECT
   EXTRACT(MONTH FROM started_at) AS month,
