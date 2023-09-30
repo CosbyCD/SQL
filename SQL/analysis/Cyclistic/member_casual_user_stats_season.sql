@@ -1,11 +1,8 @@
  /*
 File: member_casual_user_stats_season.sql
 
-This query organizes ride data into four distinct seasons—Winter, 
-Spring, Summer, and Autumn—for the year 2022. It calculates and 
-presents the counts of member and casual users, along with the 
-percentage difference between them, shedding light on user 
-preferences and behaviors across different seasons.
+Seasonal breakdown for the year 2022. Providing counts of segmented
+users, along with the percentage difference between them.
 */
 
 WITH seasonal_counts AS (
