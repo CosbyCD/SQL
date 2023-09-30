@@ -1,16 +1,11 @@
 /*
 File: max_ride_length_analysis_seasonal.sql
 
-This SQL query offers a comprehensive analysis of ride length
-statistics for "Member" and "Casual" users, segregated by 
-distinct seasons throughout the year. By categorizing rides
-into Spring, Summer, Autumn, and Winter, the query presents
-total and maximum ride lengths in hours, minutes, and seconds.
-The values are normalized by user counts, ensuring equitable 
-comparisons and eliminating bias from varying user populations. 
-This approach provides impartial insights into ride length 
-behaviors, enabling a nuanced understanding of user segments
-and their interactions with the platform.
+Ride length statistics for "Member" and "Casual" users, segregated by 
+distinct seasons throughout the year, by total and maximum ride
+lengths in hours, minutes, and seconds. 
+The values are normalized by user counts to eliminate bias. 
+
 */
 
 WITH MaxRideLengths AS (
