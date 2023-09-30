@@ -1,17 +1,9 @@
 /*
 File: breakdown_ridership_holiday_analysis.sql
 
-This query calculates and presents statistics related to 
-various holidays and their impact on bike ridership. It utilizes the
-"user_data" dataset to determine the average number of casual and
-member riders, as well as the total ridership, on each holiday. The 
-holidays are dynamically calculated based on their respective dates 
-and specific conditions. The results are grouped by holiday name and
-date, and the output is ordered by the minimum day of the year.
-
-This query offers insights into how different holidays influence bike 
-ridership patterns, allowing for a comprehensive analysis of rider 
-preferences and behavior during festive periods.
+Analyzes various holidays' impact on bike ridership, providing statistics for segmented user groups.
+Results include the holiday name, date, day of the week, and counts for both rider types, as well 
+as total ridership. Data is ordered by day of the year.
 
 */
 WITH holiday_dates AS (
