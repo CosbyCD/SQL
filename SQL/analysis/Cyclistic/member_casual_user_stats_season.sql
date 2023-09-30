@@ -1,8 +1,7 @@
  /*
 File: member_casual_user_stats_season.sql
 
-Seasonal breakdown for the year 2022. Providing counts of segmented
-users, along with the percentage difference between them.
+2022 Seasonal breakdown: Counts of segmented users, with percentage differences.
 */
 
 WITH seasonal_counts AS (
