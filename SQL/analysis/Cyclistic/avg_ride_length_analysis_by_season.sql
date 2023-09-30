@@ -1,13 +1,12 @@
 /*
 File: avg_ride_length_analysis_by_season.sql
 
-This query adeptly segments ride data into distinct seasons (Spring, Summer,
-Autumn, Winter) according to the "started_at" month. Subsequently, it calculates
+This query segments ride data into distinct seasons (Spring, Summer,
+Autumn, Winter) according to the "started_at" month. Calculating
 the mean ride duration for both "member" and "casual" users within each seasonal
 category, while also determining the percentage disparity between the two. The 
-outcomes are organized by season and thoughtfully arranged in descending order 
-based on the average ride duration for "casual" users, enabling a comprehensive 
-understanding of usage patterns across different seasons.
+outcomes are organized by season and are in descending order 
+based on the average ride duration for "casual" users.
 */
 
 SELECT
