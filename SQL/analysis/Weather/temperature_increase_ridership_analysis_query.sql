@@ -1,13 +1,7 @@
 /*
 File: temperature_increase_ridership_analysis_query.sql
 
-This SQL query combines weather data and ridership counts to 
-analyze temperature shifts affecting casual and member ridership.
-It calculates the counts of riders and their temperature 
-preferences before and after temperature shifts where the increase 
-is greater than 10 degrees Fahrenheit. The query efficiently retrieves segmented 
-ridership data and provides valuable insights into how 
-temperature changes impact ridership patterns.
+Analyzes ridership changes in response to temperature shift increases. Compares current and previous rider counts in different temperature ranges.
 */
 
 WITH TemperatureShifts AS (
