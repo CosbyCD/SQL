@@ -1,9 +1,9 @@
 /*
 FILE: outlier_ridelength_identification.sql
 
-The following series of queries is used to identify those rides
-where the ride length is negative, as well as those that are 
-longer than a day.
+Calculates the total count of records with negative ride durations, and removes records with negative ride durations.
+
+Calculates the total count of records with ride durations exceeding a day, and removes records with ride durations exceeding a day.
 */
 
 -- How many records with negative ride_length?
