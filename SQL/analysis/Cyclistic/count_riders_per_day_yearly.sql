@@ -1,10 +1,7 @@
 /*
 File: count_riders_per_day_yearly.sql
 
-A concise summary of yearly ride data trends based on the day of the week,
-giving the distribution of total ride counts between "Member" and "Casual" 
-users, highlighting the percentage difference in ride counts for each day.
-Revealing patterns in user engagement and preferences throughout the week.
+Yearly ride trends by day: segmented duration, ride count differences, user engagement patterns.
 */
 
 SELECT
