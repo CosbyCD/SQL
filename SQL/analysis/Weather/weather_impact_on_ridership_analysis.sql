@@ -1,17 +1,7 @@
 /*
 File: weather_impact_on_ridership_analysis.sql
 
-The provided query analyzes the impact of temperature and 
-precipitation on ridership patterns by categorizing the data
-into temperature ranges and precipitation statuses. The query
-calculates the count of casual and member riders for each 
-combination of temperature range, precipitation status, 
-and precipitation type. The output offers insights into 
-how different weather conditions influence ridership, 
-considering factors such as temperature and the presence 
-of precipitation, including rain, snow, and ice. The results
-allow for a comprehensive understanding of how these weather
-variables affect rider behavior.
+Provides segmented rider counts based on temperature range, precipitation status, and precipitation type.
 */
 
 SELECT
