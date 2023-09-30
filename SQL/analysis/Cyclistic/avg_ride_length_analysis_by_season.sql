@@ -1,8 +1,7 @@
 /*
 File: avg_ride_length_analysis_by_season.sql
 
-Ride data segmented, by group and seasonality, while also 
-determining the percentage disparity between the two.
+Average durations, segmented by group and seasonality, with the percentage differences.
 */
 
 SELECT
