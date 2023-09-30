@@ -1,14 +1,8 @@
 /*
 File: alter_align_temporal_granularity_between_datasets.sql
 
-These alteration queries are needed because the 'user_data'
-and 'weather_data' tables both have timestamp columns, but 
-their temporal granularity differs. To address this, a new 
-column named 'date_start' will be added to the 'user_data'
-table. This column will reference the 'started_at' column and
-extract the date portion from the timestamp. The extracted 
-date will be stored in 'YYYY-MM-DD' format in the 'date_start'
-column, aligning the temporal granularity between the two tables.
+Adds a new column named 'date_start' to the 'user_data' table. Updates the 'date_start' column 
+with the extracted date from the 'started_at' column.
 */
 
 /* RUN THESE INDIVIDUALLY - ADD THE COLUMN FIRST, THEN UPDATE THE DATA */
