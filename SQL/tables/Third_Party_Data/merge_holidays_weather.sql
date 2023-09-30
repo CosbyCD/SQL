@@ -1,10 +1,7 @@
 /*
 File merge_holidays_weather.sql
 
-The "holidays_weather_merged" table combines information from 
-the "holidays" and "weather_data" tables in to one cohesive 
-table, to simplify workflow and optimizes the ability to 
-draw meaningful conclusions from the data.
+Creates a new table named 'temporal_data' containing all columns from both the 'holidays' and 'weather_data' tables.
 */
 
 
