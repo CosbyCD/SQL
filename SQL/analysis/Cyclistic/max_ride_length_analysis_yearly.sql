@@ -1,14 +1,8 @@
 /*
 File: max_ride_length_analysis_yearly.sql
 
-This SQL query analyzes ride length statistics for "Member" 
-and "Casual" users over a year, presenting total and maximum 
-ride lengths in hours, minutes, and seconds. The maximum ride 
-length is adjusted by user count, ensuring fair comparisons 
-between user types. "Normalized by the user count" equalizes 
-differences in user population sizes, providing unbiased insights
-into ride length behaviors. This query offers a comprehensive 
-and equitable assessment of ride experiences for different user segments.
+Ride length statistics for "Member" and "Casual" users over a year,
+which is normalized by the user count to remove bias.
 */
 
 
