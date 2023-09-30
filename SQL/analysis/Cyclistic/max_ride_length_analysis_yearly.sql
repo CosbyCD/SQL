@@ -1,8 +1,8 @@
 /*
 File: max_ride_length_analysis_yearly.sql
 
-Ride length statistics for "Member" and "Casual" users over a year,
-which is normalized by the user count to remove bias.
+Calculating total and maximum ride durations for segmented groups, adjusted
+and normalized by user count over the course of a year.
 */
 
 
