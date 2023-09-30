@@ -1,7 +1,7 @@
 /*
 File: total_records_by_month
 
-Counts monthly rides in the dataset.
+Monthly ride counts.
 */
 SELECT
   EXTRACT(MONTH FROM started_at) AS month,
