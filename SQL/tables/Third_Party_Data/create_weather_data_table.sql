@@ -1,21 +1,8 @@
 /*
 File: create_weather_data_table.sql
 
-The "weather_data" table serves as the repository for a 
-comprehensive weather dataset dedicated to Chicago, 
-Illinois. Spanning from January 1, 2022, to December 31, 2022,
-the dataset is composed of daily temperature records and an 
-array of meteorological variables. These variables include 
-temperature metrics, humidity levels, detailed precipitation
-data, atmospheric pressure readings, solar indexes, cloud 
-information, visibility metrics, and wind statistics. 
-Additionally, the dataset captures significant timestamps
-such as sunrise and sunset times, moon phases, weather 
-conditions, their descriptions, and the data collection 
-location along with distance measurements in miles. Through 
-this comprehensive dataset, valuable insights into Chicago's 
-climatic trends and conditions during the specified timeframe
-are made available for analysis.
+Creates a table named 'weather_data' with various columns to store weather-related information
+such as temperature, precipitation, wind speed, and other meteorological data.
 */
 
 CREATE TABLE weather_data (
