@@ -1,18 +1,10 @@
 /*
 File: ridership_temperature_analysis.sql
 
-This query performs an insightful analysis of ridership behavior
-in relation to temperature variations during holidays. It 
-leverages data from the 'user_data' and 'holiday_weather_merge' 
-tables to categorize temperatures into ranges, such as "Less
-than 50°F," "50-59°F," and so on. The results reveal the 
-distribution of casual and member riders across these 
-temperature intervals, providing valuable insights into how 
-temperature influences rider engagement. The query is designed 
-to assist in understanding the riders' preferences and behavior 
-under different weather conditions, aiding in data-driven 
-decision-making for optimizing ridership strategies.
+Ride counts categorized by temperature ranges: Less than 50°F, 50-59°F, 60-69°F, 70-79°F, and 80°F and above.
 */
+
+
 SELECT
     CASE
         WHEN td.temp < 50 THEN 'Less than 50°F'
