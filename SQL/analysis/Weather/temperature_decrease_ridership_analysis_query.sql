@@ -1,7 +1,7 @@
 /*
 File: temperature_decrease_ridership_analysis_query.sql
 
-Analyzes ridership changes in response to temperature shifts. Compares current and previous rider counts in different temperature ranges.
+Analyzes ridership changes in response to temperature shift decreases. Compares current and previous rider counts in different temperature ranges.
 */
 
 WITH TemperatureShifts AS (
