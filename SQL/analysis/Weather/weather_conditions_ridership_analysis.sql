@@ -1,10 +1,7 @@
 /*
 File: weather_conditions_ridership_analysis.sql
 
-This query analyzes the impact of specific weather conditions on ridership patterns.
-It categorizes the data based on different weather conditions and calculates the count
-of casual and member riders for each weather condition category.
-The output provides insights into how different weather conditions influence rider behavior.
+Provides segmented rider counts based on weather conditions.
 */
 
 SELECT
