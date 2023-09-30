@@ -1,8 +1,7 @@
 /*
 File: member_casual_user_stats_month.sql
 
-A breakdown of segmented user counts, along with the percentage difference,
-for each month of the year.
+Month-wise breakdown of segmented user counts, including percentage differences.
 */
 
 WITH counts AS (
