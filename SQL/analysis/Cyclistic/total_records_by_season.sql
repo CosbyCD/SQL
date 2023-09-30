@@ -1,10 +1,7 @@
 /*
 File: "total_records_by_season.sql"
 
-This query categorizes records within the 'error_free_records' table 
-into distinct seasons the query calculates the total 
-number of records for each season, arranged chronologically.
-
+Counts seasonal rides in the dataset.
 */
 
 SELECT
