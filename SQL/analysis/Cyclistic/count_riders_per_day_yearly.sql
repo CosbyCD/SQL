@@ -1,7 +1,7 @@
 /*
 File: count_riders_per_day_yearly.sql
 
-Yearly ride trends by day: segmented duration, ride count differences, user engagement patterns.
+Yearly ride trends: segmented duration, ride count variations, user engagement patterns by day.
 */
 
 SELECT
