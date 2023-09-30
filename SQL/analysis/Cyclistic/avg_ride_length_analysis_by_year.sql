@@ -5,9 +5,9 @@ This query focuses on the average ride durations of "member"
 and "casual" riders within a single-year timeframe. 
 It calculates and presents the rounded mean ride lengths 
 for each user category and the corresponding percentage 
-difference. By examining ride patterns within this specific 
-year, the analysis offers valuable insights into the typical
-ride durations of different user types.
+difference. Examining ride patterns within this specific 
+year, provides insights into the typical ride durations 
+of different user types.
 */
 
 
