@@ -1,17 +1,9 @@
 /*
 File: avg_ride_length_by_day_of_week.sql
 
-Determining the average ride length for different 
-user categories (i.e., "Member" and "Casual") across different 
+Average duration by segmented groups across different 
 days of the week. The query employs a crosstab approach to 
 present the results in a structured pivot table format.
-
-By categorizing ride data into "Member" and "Casual" categories,
-it extracts the day of the week from the timestamp of each ride.
-Then calculates the average ride length for each combination of
-user category and day of the week, rounding the results to four
-decimal places.
-
 */
 
 
